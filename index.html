@@ -1,386 +1,565 @@
+
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es-AR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-  <title>CARABONITA | Belleza &amp; Bienestar</title>
-  <meta name="description" content="Cosmiatría y bienestar en Munro y Martínez. Tratamientos faciales y corporales. Reservá tu turno con Karina." />
-
-  <!-- OpenGraph / Twitter -->
-  <meta property="og:title" content="CARABONITA – Resalta tu belleza natural" />
-  <meta property="og:description" content="Tratamientos personalizados de piel y bienestar." />
-  <!-- TODO: reemplazar por URL ABSOLUTA de tu imagen OG -->
-  <meta property="og:image" content="https://tusitio.com/images/og-cover.jpg" />
-  <meta property="og:type" content="website" />
-  <meta name="twitter:card" content="summary_large_image" />
-
-  <!-- SEO técnico extra -->
-  <meta name="theme-color" content="#fce4ec">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16.png">
-
-  <!-- Performance -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet" />
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
-
-  <!-- Estilos -->
-  <link rel="stylesheet" href="style.css" />
-
-  <script>document.documentElement.classList.add('js-enabled');</script>
-
-  <!-- JSON-LD LocalBusiness (editar datos reales) -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+  <!-- ===== SEO básico ===== -->
+  <title>Cosmiatra en Munro y Martínez | Carabonita</title>
+  <meta name="description" content="Limpieza facial profunda, peelings, microneedling, exosomas y mesoterapia sin agujas en Munro y Martínez. Evaluación personalizada con Karina. Turnos por WhatsApp.">
+  <link rel="canonical" href="https://carabonita.com/">
+  <meta name="theme-color" content="#A8445F">
+ 
+  <!-- ===== Vista previa al compartir (WhatsApp, Instagram, Facebook) ===== -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_AR">
+  <meta property="og:site_name" content="Carabonita">
+  <meta property="og:title" content="Carabonita · Cosmiatría en Munro y Martínez">
+  <meta property="og:description" content="Tratamientos faciales personalizados con Karina. Reservá tu turno por WhatsApp.">
+  <meta property="og:url" content="https://carabonita.com/">
+  <meta property="og:image" content="https://carabonita.com/images/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Carabonita, cosmiatría en Munro y Martínez">
+  <meta name="twitter:card" content="summary_large_image">
+ 
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="site.webmanifest">
+ 
+  <!-- ===== Tipografías (solo los pesos que se usan) ===== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=Fraunces:opsz,wght,SOFT@9..144,400..600,0..100&display=swap">
+ 
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+ 
+  <!-- ===== Métricas (opcional) =====
+       Cuando crees tu propiedad de Google Analytics 4, reemplazá G-XXXXXXXXXX y descomentá este bloque.
+       script.js ya registra los clics en WhatsApp, teléfono, mail y "Cómo llegar".
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+  -->
+ 
+  <!-- ===== Datos estructurados para Google (negocio local) =====
+       Completá la dirección de Martínez y el usuario de Instagram (buscá COMPLETAR).
+       Si todavía no tenés la dirección de Martínez, borrá ese bloque entero antes de publicar. -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "BeautySalon",
-    "name": "CARABONITA",
-    "image": "https://carabonita-cosmetica.github.io/images/logo.png",
-    "url": "https://carabonita-cosmetica.github.io/",
-    "telephone": "+54 9 11 3852-3271",
-    "email": "carabonitacosmetica@gmail.com",
-    "sameAs": [
-      "https://www.instagram.com/carabonitacosmetica/",
-      "https://wa.me/5491138523271"
-    ],
-    "address": [
+    "@graph": [
       {
-        "@type": "PostalAddress",
-        "streetAddress": "Río de Janeiro 2293",
-        "addressLocality": "Martínez",
-        "addressRegion": "Buenos Aires",
-        "addressCountry": "AR"
+        "@type": "WebSite",
+        "@id": "https://carabonita.com/#website",
+        "url": "https://carabonita.com/",
+        "name": "Carabonita",
+        "inLanguage": "es-AR"
       },
       {
-        "@type": "PostalAddress",
-        "streetAddress": "Maquinista Carregal 2445",
-        "addressLocality": "Munro",
-        "addressRegion": "Buenos Aires",
-        "addressCountry": "AR"
+        "@type": "Person",
+        "@id": "https://carabonita.com/#karina",
+        "name": "Karina",
+        "jobTitle": "Cosmiatra",
+        "image": "https://carabonita.com/images/karina.png",
+        "worksFor": [{ "@id": "https://carabonita.com/#munro" }, { "@id": "https://carabonita.com/#martinez" }]
+      },
+      {
+        "@type": "BeautySalon",
+        "@id": "https://carabonita.com/#munro",
+        "name": "Carabonita · Cosmiatría en Munro",
+        "url": "https://carabonita.com/",
+        "image": "https://carabonita.com/images/consultorios/munro1.jpg",
+        "logo": "https://carabonita.com/images/logo.png",
+        "telephone": "+5491138523271",
+        "email": "info@carabonita.com",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Maquinista Carregal 2445",
+          "addressLocality": "Munro",
+          "addressRegion": "Buenos Aires",
+          "postalCode": "B1605BVI",
+          "addressCountry": "AR"
+        },
+        "geo": { "@type": "GeoCoordinates", "latitude": -34.5286, "longitude": -58.5209 },
+        "hasMap": "https://www.google.com/maps/search/?api=1&query=Maquinista+Carregal+2445+Munro",
+        "areaServed": ["Munro", "Florida", "Carapachay", "Villa Adelina", "Olivos", "Vicente López"],
+        "hasOfferCatalog": { "@id": "https://carabonita.com/#tratamientos" },
+        "sameAs": ["https://www.instagram.com/COMPLETAR/"]
+      },
+      {
+        "@type": "BeautySalon",
+        "@id": "https://carabonita.com/#martinez",
+        "name": "Carabonita · Cosmiatría en Martínez",
+        "url": "https://carabonita.com/",
+        "image": "https://carabonita.com/images/consultorios/martinez1.jpg",
+        "logo": "https://carabonita.com/images/logo.png",
+        "telephone": "+5491138523271",
+        "email": "info@carabonita.com",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "COMPLETAR",
+          "addressLocality": "Martínez",
+          "addressRegion": "Buenos Aires",
+          "addressCountry": "AR"
+        },
+        "areaServed": ["Martínez", "San Isidro", "Acassuso", "La Lucila", "Olivos"],
+        "hasOfferCatalog": { "@id": "https://carabonita.com/#tratamientos" },
+        "sameAs": ["https://www.instagram.com/COMPLETAR/"]
+      },
+      {
+        "@type": "OfferCatalog",
+        "@id": "https://carabonita.com/#tratamientos",
+        "name": "Tratamientos de cosmiatría",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Limpieza facial profunda" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Peeling químico" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Microneedling facial" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Terapia con exosomas" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Mesoterapia sin agujas" } }
+        ]
       }
-    ],
-    "areaServed": "Vicente López, San Isidro",
-    "priceRange": "$$",
-    "openingHours": ["Mo-Fr 10:00-19:00", "Sa 10:00-14:00"]
+    ]
   }
   </script>
 </head>
 <body>
-  <!-- ===== Header ===== -->
-  <header class="header" role="banner">
-    <div class="container">
-      <div class="logo">
-        <a href="#inicio" aria-label="Ir al inicio">
-          <img src="images/logo.png" alt="Logo CARABONITA" loading="eager" width="220" height="95" />
-        </a>
-      </div>
-
-      <button class="hamburger" aria-label="Abrir menú" aria-expanded="false" aria-controls="primary-nav">
-        <span></span><span></span><span></span>
-      </button>
-
-      <nav id="primary-nav" class="nav-menu" aria-label="Navegación principal">
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+ 
+  <!-- Íconos (se definen una sola vez y se reutilizan; reemplazan Font Awesome, que pesaba ~100 KB) -->
+  <svg class="sprite" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M20.5 11c0 4.1-3.8 7.4-8.5 7.4-.9 0-1.8-.1-2.6-.4L4.5 20l1.2-3.6C4.3 15 3.5 13.1 3.5 11c0-4.1 3.8-7.4 8.5-7.4s8.5 3.3 8.5 7.4z"/><path d="M8.5 11h.01M12 11h.01M15.5 11h.01"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.3"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M6.6 3.5h2.3l1.4 4-2 1.3a11 11 0 0 0 6.9 6.9l1.3-2 4 1.4v2.3a2 2 0 0 1-2.2 2A16.5 16.5 0 0 1 4.6 5.7a2 2 0 0 1 2-2.2z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3.5" y="5.5" width="17" height="13" rx="2"/><path d="m4 7 8 6 8-6"/></symbol>
+    <symbol id="i-at" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3.5"/><path d="M15.5 12v1.5a2.5 2.5 0 0 0 5 0V12a8.5 8.5 0 1 0-3.3 6.7"/></symbol>
+    <symbol id="i-prev" viewBox="0 0 24 24"><path d="M14.5 5.5 8 12l6.5 6.5"/></symbol>
+    <symbol id="i-next" viewBox="0 0 24 24"><path d="M9.5 5.5 16 12l-6.5 6.5"/></symbol>
+  </svg>
+ 
+  <!-- ===================== Encabezado ===================== -->
+  <header class="site-header">
+    <div class="wrap header-bar">
+      <a class="brand" href="#inicio" aria-label="Carabonita, ir al inicio">
+        <img src="images/logo.png" alt="Carabonita" width="160" height="64">
+      </a>
+ 
+      <nav id="menu" class="site-nav" aria-label="Principal">
         <ul>
-          <li><a href="#inicio" class="nav-link active">Inicio</a></li>
-          <li><a href="#tratamientos" class="nav-link">Tratamientos</a></li>
-          <li><a href="#consultorios" class="nav-link">Consultorios</a></li>
-          <li><a href="#nosotros" class="nav-link">Sobre Mi</a></li>
-          <li><a href="#contacto" class="nav-link">Contacto</a></li>
+          <li><a href="#tratamientos">Tratamientos</a></li>
+          <li><a href="#como-trabajo">Cómo trabajo</a></li>
+          <li><a href="#sobre-mi">Sobre mí</a></li>
+          <li><a href="#consultorios">Consultorios</a></li>
+          <li><a href="#preguntas">Preguntas</a></li>
         </ul>
       </nav>
+ 
+      <a class="btn btn--wa btn--sm header-cta" href="https://wa.me/5491138523271?text=Hola%20Karina%2C%20vi%20tu%20web%20y%20quiero%20consultar%20por%20un%20turno." target="_blank" rel="noopener" data-track="header">
+        <svg class="icon" aria-hidden="true"><use href="#i-chat"/></svg>Reservar<span class="hide-sm">turno</span>
+      </a>
+ 
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu">
+        <span class="menu-toggle__bars" aria-hidden="true"></span>
+        <span class="menu-toggle__label">Menú</span>
+      </button>
     </div>
   </header>
-
-  <!-- ===== Hero ===== -->
-  <section id="inicio" class="hero" aria-label="Sección principal">
-    <div class="hero-content">
-      <h1>Descubrí la belleza que hay en vos</h1>
-      <p>Tratamientos personalizados para tu piel y bienestar. Reservá tu momento de relajación.</p>
-      <div class="cta-row">
-        <a href="#tratamientos" class="btn">Ver tratamientos</a>
-        <a class="btn btn-outline" target="_blank" rel="noopener"
-           href="https://wa.me/5491138523271?text=Hola%20Karina%2C%20quisiera%20consultar%20por%20un%20turno">
-          Escribime por WhatsApp
-        </a>
-      </div>
-    </div>
-
-    <!-- Parallax optimizado con <img> y width/height -->
-    <div class="parallax" aria-hidden="true">
-      <!-- TODO: colocar dimensiones reales de tu hero.jpg -->
-      <img src="images/hero.jpg" alt="" width="2400" height="1600" fetchpriority="high" />
-    </div>
-  </section>
-
-  <!-- ===== Tratamientos ===== -->
-  <section id="tratamientos" class="nuevos-tratamientos" aria-label="Nuestros tratamientos">
-    <div class="container">
-      <h2>Nuestros Tratamientos</h2>
-
-      <div class="treatment-cards">
-        <!-- Limpieza facial -->
-        <article class="card fade-in">
-          <figure class="card-media">
-            <img src="images/tratamientos/limpieza.jpg" alt="Limpieza facial en cabina" loading="lazy" decoding="async" width="1200" height="800">
-          </figure>
-          <div class="card-header"><h4>Limpieza Facial</h4></div>
-          <h3>Limpieza Facial Profunda</h3>
-          <p>Renová tu piel con una limpieza profunda que elimina impurezas y células muertas.</p>
-        </article>
-
-        <!-- Exosomas -->
-        <article class="card fade-in">
-          <figure class="card-media">
-            <img src="images/tratamientos/exosomas.jpg" alt="Aplicación de exosomas para regeneración cutánea" loading="lazy" decoding="async" width="1200" height="800">
-          </figure>
-          <div class="card-header"><h4>Exosomas</h4></div>
-          <h3>Terapia con Exosomas</h3>
-          <p>Estimula la regeneración celular y mejora la salud de tu piel con tecnología avanzada.</p>
-        </article>
-
-        <!-- Microneedling -->
-        <article class="card fade-in">
-          <figure class="card-media">
-            <img src="images/tratamientos/microneedling.jpg" alt="Microneedling para estimular colágeno" loading="lazy" decoding="async" width="1200" height="800">
-          </figure>
-          <div class="card-header"><h4>Microneedling</h4></div>
-          <h3>Microneedling Facial</h3>
-          <p>Activa la producción de colágeno para reducir arrugas y mejorar la textura de la piel.</p>
-        </article>
-
-        <!-- Peelings químicos -->
-        <article class="card fade-in">
-          <figure class="card-media">
-            <img src="images/tratamientos/peeling.jpg" alt="Peeling químico profesional" loading="lazy" decoding="async" width="1200" height="800">
-          </figure>
-          <div class="card-header"><h4>Peelings químicos</h4></div>
-          <h3>Peeling Profesional</h3>
-          <p>Renueva tu piel eliminando capas superficiales para un aspecto más fresco y uniforme.</p>
-        </article>
-
-        <!-- Mesoterapia virtual -->
-        <article class="card fade-in">
-          <figure class="card-media">
-            <img src="images/tratamientos/mesoterapia.jpg" alt="Mesoterapia virtual sin agujas" loading="lazy" decoding="async" width="1200" height="800">
-          </figure>
-          <div class="card-header"><h4>Mesoterapia Virtual</h4></div>
-          <h3>Mesoterapia sin agujas</h3>
-          <p>Hidrata y revitaliza tu piel mediante la introducción de activos con tecnología no invasiva.</p>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== Sobre mí ===== -->
-  <section id="nosotros" class="about-us" aria-label="Sobre mí">
-    <div class="container">
-      <div class="about-content fade-in">
-        <img src="images/karina.png" alt="Karina, fundadora de CARABONITA" loading="lazy" width="1040" height="780" />
-        <div class="text-content">
-          <h2>Sobre Mí</h2>
-          <p>Bienvenidos a CARABONITA, donde la belleza se encuentra en la armonía entre la salud y la estética. Mi nombre es Karina y soy la fundadora de este oasis de rejuvenecimiento y cuidado de la piel.</p>
-          <p>En CARABONITA, nos esforzamos por estar a la vanguardia de las últimas tendencias en cosmiatría. Ya sea que busques rejuvenecer tu piel, desvanecer imperfecciones o simplemente mimarte con un tratamiento relajante, estás en las mejores manos.</p>
-          <p>¡Espero con ansias poder ayudarte a descubrir tu mejor versión!<br>Con cariño,<br>Karina.</p>
-          <a href="#contacto" class="btn">Reservar turno</a>
+ 
+  <main id="contenido">
+ 
+    <!-- ===================== Hero ===================== -->
+    <section id="inicio" class="hero">
+      <div class="wrap hero__grid">
+        <div class="hero__text">
+          <h1>Cosmiatría con Karina en Munro y Martínez</h1>
+          <p class="hero__lead">Limpiezas faciales, peelings, microneedling y más. Cada tratamiento empieza con una evaluación de tu piel, así sabés qué te conviene antes de empezar.</p>
+          <div class="hero__actions">
+            <a class="btn btn--wa" href="https://wa.me/5491138523271?text=Hola%20Karina%2C%20vi%20tu%20web%20y%20quiero%20consultar%20por%20un%20turno." target="_blank" rel="noopener" data-track="hero">
+              <svg class="icon" aria-hidden="true"><use href="#i-chat"/></svg>Reservar por WhatsApp
+            </a>
+            <a class="btn btn--ghost" href="#tratamientos">Ver tratamientos</a>
+          </div>
+          <p class="hero__note">Te respondo personalmente.</p>
+        </div>
+ 
+        <div class="hero__media">
+          <!-- Ideal: foto vertical (retrato de Karina trabajando o del gabinete), 920×1150 px, menos de 200 KB -->
+          <img src="images/hero.jpg" alt="Gabinete de cosmiatría de Carabonita" width="920" height="1150" fetchpriority="high" decoding="async">
         </div>
       </div>
-    </div>
-  </section>
-
-  <!-- ===== Consultorios ===== -->
-  <section id="consultorios" class="consultorios" aria-label="Consultorios">
-    <div class="container">
-      <h2>Consultorios</h2>
-
-      <div class="consultorios-columns">
-        <!-- Martínez -->
-        <article class="consultorio">
-          <header class="consultorio-header">
-            <h3>Martínez</h3>
-            <p>Ambiente moderno y cálido, a pasos del centro de Martínez.</p>
-          </header>
-
-          <!-- Carrusel -->
-          <div class="carousel" data-carousel>
-            <button class="c-btn prev" aria-label="Anterior" data-prev>
-              <i class="fa-solid fa-chevron-left"></i>
-            </button>
-
-            <div class="c-track" data-track>
-              <div class="c-slide is-active"
-                   data-lightbox="image"
-                   data-src="images/consultorios/martinez1.jpg">
-                <img src="images/consultorios/martinez1.jpg" alt="Consultorio Martínez - recepción" loading="lazy" width="1600" height="900">
-              </div>
-
-              <div class="c-slide"
-                   data-lightbox="image"
-                   data-src="images/consultorios/martinez2.jpg">
-                <img src="images/consultorios/martinez2.jpg" alt="Consultorio Martínez - gabinete" loading="lazy" width="1600" height="900">
-              </div>
-
-              <div class="c-slide"
-                   data-lightbox="image"
-                   data-src="images/consultorios/martinez3.jpg">
-                <img src="images/consultorios/martinez3.jpg" alt="Consultorio Martínez - detalle" loading="lazy" width="1600" height="900">
-              </div>
-
-              <!-- Opcional: video como slide -->
-              <!-- <div class="c-slide"
-                   data-lightbox="video"
-                   data-src="media/consultorios/martinez-tour.mp4"
-                   data-poster="images/consultorios/martinez-tour-poster.jpg">
-                <img src="images/consultorios/martinez-tour-poster.jpg" alt="Video: Tour consultorio Martínez" loading="lazy" width="1600" height="900">
-                <span class="play-badge" aria-hidden="true"><i class="fa-solid fa-play"></i></span>
-              </div> -->
-            </div>
-
-            <button class="c-btn next" aria-label="Siguiente" data-next>
-              <i class="fa-solid fa-chevron-right"></i>
-            </button>
-
-            <div class="c-dots" data-dots></div>
-          </div>
-        </article>
-
-        <!-- Munro -->
-        <article class="consultorio">
-          <header class="consultorio-header">
-            <h3>Munro</h3>
-            <p>Espacio luminoso y tranquilo, ideal para tu bienestar.</p>
-          </header>
-
-          <!-- Carrusel -->
-          <div class="carousel" data-carousel>
-            <button class="c-btn prev" aria-label="Anterior" data-prev>
-              <i class="fa-solid fa-chevron-left"></i>
-            </button>
-
-            <div class="c-track" data-track>
-              <div class="c-slide is-active"
-                   data-lightbox="image"
-                   data-src="images/consultorios/munro1.jpg">
-                <img src="images/consultorios/munro1.jpg" alt="Consultorio Munro - recepción" loading="lazy" width="1600" height="900">
-              </div>
-
-              <div class="c-slide"
-                   data-lightbox="image"
-                   data-src="images/consultorios/munro2.jpg">
-                <img src="images/consultorios/munro2.jpg" alt="Consultorio Munro - gabinete" loading="lazy" width="1600" height="900">
-              </div>
-
-              <div class="c-slide"
-                   data-lightbox="image"
-                   data-src="images/consultorios/munro3.jpg">
-                <img src="images/consultorios/munro3.jpg" alt="Consultorio Munro - detalle" loading="lazy" width="1600" height="900">
-              </div>
-
-              <!-- Opcional: video -->
-              <!-- <div class="c-slide"
-                   data-lightbox="video"
-                   data-src="media/munro-tour.mp4"
-                   data-poster="images/consultorios/munro-tour-poster.jpg">
-                <img src="images/consultorios/munro-tour-poster.jpg" alt="Video: Tour consultorio Munro" loading="lazy" width="1600" height="900">
-                <span class="play-badge" aria-hidden="true"><i class="fa-solid fa-play"></i></span>
-              </div> -->
-            </div>
-
-            <button class="c-btn next" aria-label="Siguiente" data-next>
-              <i class="fa-solid fa-chevron-right"></i>
-            </button>
-
-            <div class="c-dots" data-dots></div>
-          </div>
-        </article>
-      </div>
-    </div>
-
-    <!-- Lightbox (modal) -->
-    <div id="lightbox" class="lightbox" aria-hidden="true">
-      <button class="lb-close" aria-label="Cerrar (Esc)">&times;</button>
-      <div class="lb-content" role="dialog" aria-modal="true" aria-label="Visor de medios"></div>
-    </div>
-  </section>
-
-  <!-- ===== Contacto ===== -->
-  <section id="contacto" class="contact" aria-label="Contacto">
-    <div class="container">
-      <h2>Contactanos</h2>
-
-      <div class="contact-grid">
-        <!-- Mapa: Martínez -->
-        <article class="map-card fade-in">
-          <h3>Consultorio Martínez</h3>
-          <div class="map">
-            <!-- TODO: Pegar EMBED correcto desde Google Maps (Compartir > Insertar un mapa) -->
-            <iframe
-              title="Mapa Consultorio Martínez"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3909.9890430436753!2d-58.52823725969066!3d-34.50552661056074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb1a94d0228af%3A0x939bba707f58e27d!2sViviana%20Grig%C3%BCelo%20y%20Esteban%20Vaccaro%20R%C3%8DO%20ODONTOLOG%C3%8DA!5e0!3m2!1ses!2sar!4v1755889446396!5m2!1ses!2sar"
-              width="100%" height="450" style="border:0;" allowfullscreen loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
-          </div>
-          <p class="map-note">
-            <a href="https://maps.app.goo.gl/XXXXXXXX" target="_blank" rel="noopener">Abrir en Google Maps</a>
-          </p>
-        </article>
-
-        <!-- Mapa: Munro -->
-        <article class="map-card fade-in">
-          <h3>Consultorio Munro</h3>
-          <div class="map">
-            <!-- TODO: Pegar EMBED correcto desde Google Maps -->
-            <iframe
-              title="Mapa Consultorio Munro"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.984769112324!2d-58.52094552342062!3d-34.528613853537045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb0d04697e663%3A0xbd6a536d8372de74!2sMaquinista%20Carregal%202445%2C%20B1605BVI%20Munro%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1754721267865!5m2!1ses!2sar"
-              width="100%" height="450" style="border:0;" allowfullscreen loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
-          </div>
-          <p class="map-note">
-            <a href="https://maps.app.goo.gl/YYYYYYYY" target="_blank" rel="noopener">Abrir en Google Maps</a>
-          </p>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== Footer ===== -->
-  <footer class="footer" role="contentinfo">
-    <div class="container">
-      <div class="footer-content">
-        <p>&copy; 2025 CARABONITA. Todos los derechos reservados.</p>
-
-        <div class="social-links" aria-label="Redes sociales">
-          <a href="https://www.instagram.com/carabonitacosmetica/" target="_blank" rel="noopener" aria-label="Instagram">
-            <i class="fab fa-instagram" aria-hidden="true"></i>
-          </a>
-          <a href="https://wa.me/5491138523271" target="_blank" rel="noopener" aria-label="WhatsApp">
-            <i class="fab fa-whatsapp" aria-hidden="true"></i>
+    </section>
+ 
+    <!-- ===================== Tratamientos ===================== -->
+    <section id="tratamientos" class="section section--tint" aria-labelledby="tratamientos-titulo">
+      <div class="wrap carta">
+        <div class="carta__intro">
+          <h2 id="tratamientos-titulo">Tratamientos</h2>
+          <p>Cada protocolo se adapta a tu tipo de piel y a lo que querés lograr. Si no sabés por cuál empezar, escribime y lo vemos en la evaluación.</p>
+          <p class="small">Los resultados varían según cada piel. En la evaluación te explico qué podés esperar de forma realista.</p>
+          <a class="btn btn--wa" href="https://wa.me/5491138523271?text=Hola%20Karina%2C%20vi%20tu%20web%20y%20no%20s%C3%A9%20qu%C3%A9%20tratamiento%20me%20conviene.%20%C2%BFMe%20asesor%C3%A1s%3F" target="_blank" rel="noopener" data-track="tratamientos_asesoramiento">
+            <svg class="icon" aria-hidden="true"><use href="#i-chat"/></svg>Consultar cuál me conviene
           </a>
         </div>
-
-        <div class="contact-info">
-          <!-- IMPORTANTE: link normal (no /embed) -->
-          <p>Dirección: <a href="https://maps.app.goo.gl/2k6qvZB7hEXEMPLO" target="_blank" rel="noopener">Río de Janeiro 2293, Martínez</a></p>
-          <p>Email: <a href="mailto:carabonita@gmail.com">carabonita@gmail.com</a></p>
-          <p>Tel: <a href="tel:+5491138523271">+54 9 11 3852-3271</a></p>
+ 
+        <ul class="carta__list">
+          <li class="tratamiento" id="limpieza-facial">
+            <img class="tratamiento__img" src="images/tratamientos/limpieza.jpg" alt="Limpieza facial en cabina" width="240" height="300" loading="lazy" decoding="async">
+            <div>
+              <h3>Limpieza facial profunda</h3>
+              <p>Retira impurezas, puntos negros y células muertas para que la piel respire y aproveche mejor tu rutina de cuidado en casa.</p>
+              <p class="tratamiento__ideal"><strong>Ideal para:</strong> poros obstruidos, piel opaca y como mantenimiento periódico.</p>
+              <a class="link-wa" href="https://wa.me/5491138523271?text=Hola%20Karina%2C%20vi%20tu%20web%20y%20quiero%20consultar%20por%20la%20limpieza%20facial%20profunda." target="_blank" rel="noopener" data-track="tratamiento_limpieza">Consultar por limpieza facial</a>
+            </div>
+          </li>
+ 
+          <li class="tratamiento" id="peeling-quimico">
+            <img class="tratamiento__img" src="images/tratamientos/peeling.jpg" alt="Peeling químico profesional" width="240" height="300" loading="lazy" decoding="async">
+            <div>
+              <h3>Peeling químico</h3>
+              <p>Exfoliación controlada con ácidos que renueva las capas superficiales de la piel. El tipo de ácido y la concentración se eligen según tu piel.</p>
+              <p class="tratamiento__ideal"><strong>Ideal para:</strong> manchas, textura irregular y marcas leves de acné.</p>
+              <a class="link-wa" href="https://wa.me/5491138523271?text=Hola%20Karina%2C%20vi%20tu%20web%20y%20quiero%20consultar%20por%20el%20peeling%20qu%C3%ADmico." target="_blank" rel="noopener" data-track="tratamiento_peeling">Consultar por peeling</a>
+            </div>
+          </li>
+ 
+          <li class="tratamiento" id="microneedling">
+            <img class="tratamiento__img" src="images/tratamientos/microneedling.jpg" alt="Microneedling para estimular colágeno" width="240" height="300" loading="lazy" decoding="async">
+            <div>
+              <h3>Microneedling facial</h3>
+              <p>Microperforaciones controladas que estimulan la producción natural de colágeno y mejoran la textura de la piel.</p>
+              <p class="tratamiento__ideal"><strong>Ideal para:</strong> líneas finas, marcas de acné y poros dilatados.</p>
+              <a class="link-wa" href="https://wa.me/5491138523271?text=Hola%20Karina%2C%20vi%20tu%20web%20y%20quiero%20consultar%20por%20el%20microneedling." target="_blank" rel="noopener" data-track="tratamiento_microneedling">Consultar por microneedling</a>
+            </div>
+          </li>
+ 
+          <li class="tratamiento" id="exosomas">
+            <img class="tratamiento__img" src="images/tratamientos/exosomas.jpg" alt="Aplicación de exosomas para regeneración cutánea" width="240" height="300" loading="lazy" decoding="async">
+            <div>
+              <h3>Terapia con exosomas</h3>
+              <p>Activos de última generación que acompañan la regeneración de la piel. Se pueden combinar con otros tratamientos para potenciarlos.</p>
+              <p class="tratamiento__ideal"><strong>Ideal para:</strong> pieles apagadas o cansadas y como complemento de otros tratamientos.</p>
+              <a class="link-wa" href="https://wa.me/5491138523271?text=Hola%20Karina%2C%20vi%20tu%20web%20y%20quiero%20consultar%20por%20la%20terapia%20con%20exosomas." target="_blank" rel="noopener" data-track="tratamiento_exosomas">Consultar por exosomas</a>
+            </div>
+          </li>
+ 
+          <li class="tratamiento" id="mesoterapia">
+            <img class="tratamiento__img" src="images/tratamientos/mesoterapia.jpg" alt="Mesoterapia virtual sin agujas" width="240" height="300" loading="lazy" decoding="async">
+            <div>
+              <h3>Mesoterapia sin agujas</h3>
+              <p>Introduce activos hidratantes y revitalizantes en la piel con tecnología no invasiva, sin pinchazos.</p>
+              <p class="tratamiento__ideal"><strong>Ideal para:</strong> piel deshidratada, falta de luminosidad y quienes prefieren evitar las agujas.</p>
+              <a class="link-wa" href="https://wa.me/5491138523271?text=Hola%20Karina%2C%20vi%20tu%20web%20y%20quiero%20consultar%20por%20la%20mesoterapia%20sin%20agujas." target="_blank" rel="noopener" data-track="tratamiento_mesoterapia">Consultar por mesoterapia</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+ 
+    <!-- ===================== Cómo trabajo ===================== -->
+    <section id="como-trabajo" class="section" aria-labelledby="como-titulo">
+      <div class="wrap">
+        <h2 id="como-titulo">Cómo es tu primera visita</h2>
+        <p class="section__lead">Primero conocemos tu piel; después decidimos qué tratamiento tiene sentido.</p>
+        <ol class="pasos">
+          <li class="paso">
+            <span class="paso__num" aria-hidden="true">1</span>
+            <h3>Me escribís</h3>
+            <p>Por WhatsApp, contándome qué te preocupa de tu piel o qué tratamiento te interesa.</p>
+          </li>
+          <li class="paso">
+            <span class="paso__num" aria-hidden="true">2</span>
+            <h3>Evaluamos tu piel</h3>
+            <p>Analizo tu tipo de piel, tu rutina y tus objetivos antes de hacer cualquier tratamiento.</p>
+          </li>
+          <li class="paso">
+            <span class="paso__num" aria-hidden="true">3</span>
+            <h3>Armamos tu plan</h3>
+            <p>Te propongo tratamientos y frecuencia, y te explico qué esperar de cada uno.</p>
+          </li>
+          <li class="paso">
+            <span class="paso__num" aria-hidden="true">4</span>
+            <h3>Seguimiento</h3>
+            <p>Ajustamos el plan según cómo responde tu piel y te llevás indicaciones para cuidarla en casa.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+ 
+    <!-- ===================== Sobre mí ===================== -->
+    <section id="sobre-mi" class="section section--tint" aria-labelledby="sobre-titulo">
+      <div class="wrap sobre">
+        <div class="sobre__foto">
+          <img src="images/karina.png" alt="Karina, cosmiatra y fundadora de Carabonita" width="600" height="750" loading="lazy" decoding="async">
+        </div>
+        <div class="sobre__texto">
+          <h2 id="sobre-titulo">Hola, soy Karina</h2>
+          <p>Soy cosmiatra y fundadora de Carabonita. Me dedico al cuidado de la piel porque me apasiona ver cómo cambia cuando se la trata con constancia y con los activos adecuados.</p>
+          <p>Antes de cualquier tratamiento me tomo el tiempo de conocer tu piel, tu rutina y lo que te gustaría mejorar. Con eso armamos un plan a tu medida y te explico qué esperar de cada sesión.</p>
+          <p>Me capacito de forma continua para trabajar con técnicas actuales, siempre eligiendo lo que realmente le sirve a tu piel.</p>
+ 
+          <!-- La formación concreta genera confianza (y Google la valora). Completá con datos reales. -->
+          <ul class="credenciales">
+            <li>Título de cosmiatra: COMPLETAR (institución y año)</li>
+            <li>Formación en COMPLETAR (por ejemplo, microneedling, peelings o exosomas)</li>
+            <li>COMPLETAR: otro curso o certificación relevante</li>
+          </ul>
+ 
+          <p class="sobre__firma">Con cariño, Karina</p>
+          <a class="btn btn--wa" href="https://wa.me/5491138523271?text=Hola%20Karina%2C%20vi%20tu%20web%20y%20quiero%20consultar%20por%20un%20turno." target="_blank" rel="noopener" data-track="sobre_mi">
+            <svg class="icon" aria-hidden="true"><use href="#i-chat"/></svg>Escribime por WhatsApp
+          </a>
         </div>
       </div>
+    </section>
+ 
+    <!-- ===================== Consultorios ===================== -->
+    <section id="consultorios" class="section" aria-labelledby="consultorios-titulo">
+      <div class="wrap">
+        <h2 id="consultorios-titulo">Consultorios</h2>
+        <p class="section__lead">Atiendo en Munro (Vicente López) y en Martínez (San Isidro), cerca de Florida, Carapachay, Villa Adelina y Olivos. Elegí el que te quede más cómodo.</p>
+ 
+        <div class="sedes">
+          <!-- Munro -->
+          <article class="sede" id="sede-munro" aria-labelledby="munro-titulo">
+            <div class="carousel" data-carousel role="region" aria-roledescription="carrusel" aria-label="Fotos del consultorio de Munro" tabindex="0">
+              <ul class="carousel__track" data-track>
+                <li class="carousel__slide" role="group" aria-roledescription="foto" aria-label="1 de 3">
+                  <button class="carousel__open" type="button" data-lightbox="image" data-src="images/consultorios/munro1.jpg" aria-label="Ampliar foto: recepción">
+                    <img src="images/consultorios/munro1.jpg" alt="Consultorio Munro, recepción" width="800" height="600" loading="lazy" decoding="async" draggable="false">
+                  </button>
+                </li>
+                <li class="carousel__slide" role="group" aria-roledescription="foto" aria-label="2 de 3">
+                  <button class="carousel__open" type="button" data-lightbox="image" data-src="images/consultorios/munro2.jpg" aria-label="Ampliar foto: gabinete">
+                    <img src="images/consultorios/munro2.jpg" alt="Consultorio Munro, gabinete" width="800" height="600" loading="lazy" decoding="async" draggable="false">
+                  </button>
+                </li>
+                <li class="carousel__slide" role="group" aria-roledescription="foto" aria-label="3 de 3">
+                  <button class="carousel__open" type="button" data-lightbox="image" data-src="images/consultorios/munro3.jpg" aria-label="Ampliar foto: detalle">
+                    <img src="images/consultorios/munro3.jpg" alt="Consultorio Munro, detalle" width="800" height="600" loading="lazy" decoding="async" draggable="false">
+                  </button>
+                </li>
+                <!-- Video opcional: descomentá cuando tengas el archivo (MP4, menos de 10 MB) y actualizá los "X de Y".
+                <li class="carousel__slide" role="group" aria-roledescription="foto" aria-label="4 de 4">
+                  <button class="carousel__open" type="button" data-lightbox="video" data-src="media/munro-tour.mp4" data-poster="images/consultorios/munro-tour-poster.jpg" aria-label="Ver video del consultorio">
+                    <img src="images/consultorios/munro-tour-poster.jpg" alt="Video: recorrido por el consultorio de Munro" width="800" height="600" loading="lazy" decoding="async" draggable="false">
+                    <span class="play-badge" aria-hidden="true">Video</span>
+                  </button>
+                </li>
+                -->
+              </ul>
+              <button class="carousel__btn carousel__btn--prev" type="button" aria-label="Foto anterior" data-prev><svg class="icon" aria-hidden="true"><use href="#i-prev"/></svg></button>
+              <button class="carousel__btn carousel__btn--next" type="button" aria-label="Foto siguiente" data-next><svg class="icon" aria-hidden="true"><use href="#i-next"/></svg></button>
+              <div class="carousel__dots" data-dots></div>
+            </div>
+ 
+            <div class="sede__info">
+              <h3 id="munro-titulo">Munro</h3>
+              <p>Espacio luminoso y tranquilo, ideal para tu bienestar.</p>
+              <ul class="sede__datos">
+                <li><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg><span>Maquinista Carregal 2445, Munro</span></li>
+                <li><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg><span>Horarios: COMPLETAR</span></li>
+              </ul>
+              <div class="sede__acciones">
+                <a class="btn btn--ghost btn--sm" href="https://www.google.com/maps/dir/?api=1&amp;destination=Maquinista%20Carregal%202445%2C%20Munro%2C%20Buenos%20Aires" target="_blank" rel="noopener" data-track="como_llegar_munro">Cómo llegar</a>
+                <button class="btn btn--ghost btn--sm" type="button" aria-expanded="false" aria-controls="mapa-munro" data-map-toggle data-map-title="Mapa del consultorio de Munro"
+                  data-map-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.984769112324!2d-58.52094552342062!3d-34.528613853537045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb0d04697e663%3A0xbd6a536d8372de74!2sMaquinista%20Carregal%202445%2C%20B1605BVI%20Munro%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1754721267865!5m2!1ses!2sar">Ver mapa</button>
+              </div>
+              <div class="sede__mapa" id="mapa-munro" hidden></div>
+            </div>
+          </article>
+ 
+          <!-- Martínez -->
+          <article class="sede" id="sede-martinez" aria-labelledby="martinez-titulo">
+            <div class="carousel" data-carousel role="region" aria-roledescription="carrusel" aria-label="Fotos del consultorio de Martínez" tabindex="0">
+              <ul class="carousel__track" data-track>
+                <li class="carousel__slide" role="group" aria-roledescription="foto" aria-label="1 de 3">
+                  <button class="carousel__open" type="button" data-lightbox="image" data-src="images/consultorios/martinez1.jpg" aria-label="Ampliar foto: recepción">
+                    <img src="images/consultorios/martinez1.jpg" alt="Consultorio Martínez, recepción" width="800" height="600" loading="lazy" decoding="async" draggable="false">
+                  </button>
+                </li>
+                <li class="carousel__slide" role="group" aria-roledescription="foto" aria-label="2 de 3">
+                  <button class="carousel__open" type="button" data-lightbox="image" data-src="images/consultorios/martinez2.jpg" aria-label="Ampliar foto: gabinete">
+                    <img src="images/consultorios/martinez2.jpg" alt="Consultorio Martínez, gabinete" width="800" height="600" loading="lazy" decoding="async" draggable="false">
+                  </button>
+                </li>
+                <li class="carousel__slide" role="group" aria-roledescription="foto" aria-label="3 de 3">
+                  <button class="carousel__open" type="button" data-lightbox="image" data-src="images/consultorios/martinez3.jpg" aria-label="Ampliar foto: detalle">
+                    <img src="images/consultorios/martinez3.jpg" alt="Consultorio Martínez, detalle" width="800" height="600" loading="lazy" decoding="async" draggable="false">
+                  </button>
+                </li>
+                <!-- Video opcional: igual que en Munro, con media/martinez-tour.mp4 -->
+              </ul>
+              <button class="carousel__btn carousel__btn--prev" type="button" aria-label="Foto anterior" data-prev><svg class="icon" aria-hidden="true"><use href="#i-prev"/></svg></button>
+              <button class="carousel__btn carousel__btn--next" type="button" aria-label="Foto siguiente" data-next><svg class="icon" aria-hidden="true"><use href="#i-next"/></svg></button>
+              <div class="carousel__dots" data-dots></div>
+            </div>
+ 
+            <div class="sede__info">
+              <h3 id="martinez-titulo">Martínez</h3>
+              <p>Ambiente moderno y cálido, a pasos del centro de Martínez.</p>
+              <ul class="sede__datos">
+                <li><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg><span>COMPLETAR dirección, Martínez</span></li>
+                <li><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg><span>Horarios: COMPLETAR</span></li>
+              </ul>
+              <div class="sede__acciones">
+                <a class="btn btn--ghost btn--sm" href="https://www.google.com/maps/dir/?api=1&amp;destination=COMPLETAR%2C%20Mart%C3%ADnez%2C%20Buenos%20Aires" target="_blank" rel="noopener" data-track="como_llegar_martinez">Cómo llegar</a>
+                <button class="btn btn--ghost btn--sm" type="button" aria-expanded="false" aria-controls="mapa-martinez" data-map-toggle data-map-title="Mapa del consultorio de Martínez"
+                  data-map-src="https://www.google.com/maps?q=COMPLETAR%2C%20Mart%C3%ADnez%2C%20Buenos%20Aires&amp;output=embed">Ver mapa</button>
+              </div>
+              <div class="sede__mapa" id="mapa-martinez" hidden></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+ 
+    <!-- ===================== Testimonios =====================
+         Descomentá esta sección cuando tengas 3 reseñas REALES (copiá las de Google, con permiso).
+         Nunca inventes reseñas: además de ser engañoso, Google penaliza los perfiles que lo hacen.
+    <section id="resenas" class="section section--tint" aria-labelledby="resenas-titulo">
+      <div class="wrap">
+        <h2 id="resenas-titulo">Lo que dicen mis pacientes</h2>
+        <div class="resenas">
+          <figure class="resena">
+            <blockquote><p>Texto de la reseña real.</p></blockquote>
+            <figcaption>Nombre, tratamiento</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+    -->
+ 
+    <!-- ===================== Preguntas frecuentes ===================== -->
+    <section id="preguntas" class="section section--tint" aria-labelledby="preguntas-titulo">
+      <div class="wrap wrap--narrow">
+        <h2 id="preguntas-titulo">Preguntas frecuentes</h2>
+        <div class="faq">
+          <details>
+            <summary>¿Cómo saco turno?</summary>
+            <div class="faq__answer"><p>Escribime por WhatsApp al <a href="https://wa.me/5491138523271?text=Hola%20Karina%2C%20vi%20tu%20web%20y%20quiero%20consultar%20por%20un%20turno." target="_blank" rel="noopener" data-track="faq">11 3852-3271</a> contándome qué te interesa. Te respondo y coordinamos día, horario y consultorio.</p></div>
+          </details>
+          <details>
+            <summary>¿Dónde atendés?</summary>
+            <div class="faq__answer"><p>Tengo dos consultorios: en Munro, en Maquinista Carregal 2445, y en Martínez, en COMPLETAR. Podés elegir el que te quede más cómodo.</p></div>
+          </details>
+          <details>
+            <summary>No sé qué tratamiento necesito. ¿Qué hago?</summary>
+            <div class="faq__answer"><p>Es lo más común, y está perfecto. Contame qué te gustaría mejorar de tu piel; en la primera sesión la evaluamos y te recomiendo por dónde empezar.</p></div>
+          </details>
+          <details>
+            <summary>¿Cuántas sesiones voy a necesitar?</summary>
+            <div class="faq__answer"><p>Depende del tratamiento y de tu piel. La limpieza facial suele hacerse de forma periódica como mantenimiento, mientras que el microneedling o los peelings se planifican en series. En la evaluación te digo cuántas sesiones estimo y cada cuánto.</p></div>
+          </details>
+          <details>
+            <summary>¿Los tratamientos duelen?</summary>
+            <div class="faq__answer"><p>La mayoría son indoloros. El microneedling y algunos peelings pueden dar una sensación de ardor leve o enrojecimiento pasajero. Antes de empezar te explico qué vas a sentir y cómo cuidar la piel después.</p></div>
+          </details>
+          <details>
+            <summary>¿Hay tratamientos que no pueda hacerme?</summary>
+            <div class="faq__answer"><p>Algunos se adaptan o se posponen si estás embarazada o amamantando, si tomás cierta medicación o si tenés una afección en la piel. Contámelo cuando me escribas, así elegimos una opción segura para vos. Si hace falta, te voy a sugerir consultar con un médico dermatólogo.</p></div>
+          </details>
+        </div>
+      </div>
+    </section>
+ 
+    <!-- ===================== Contacto ===================== -->
+    <section id="contacto" class="section" aria-labelledby="contacto-titulo">
+      <div class="wrap contacto">
+        <div class="contacto__texto">
+          <h2 id="contacto-titulo">Reservá tu turno</h2>
+          <p>La forma más rápida es WhatsApp. Completá estos datos y se abre el chat con el mensaje listo; solo tenés que enviarlo.</p>
+          <ul class="contacto__datos">
+            <li><svg class="icon" aria-hidden="true"><use href="#i-chat"/></svg><a href="https://wa.me/5491138523271?text=Hola%20Karina%2C%20vi%20tu%20web%20y%20quiero%20consultar%20por%20un%20turno." target="_blank" rel="noopener" data-track="contacto">WhatsApp 11 3852-3271</a></li>
+            <li><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg><a href="tel:+5491138523271" data-track="contacto">+54 9 11 3852-3271</a></li>
+            <li><svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg><a href="mailto:info@carabonita.com" data-track="contacto">info@carabonita.com</a></li>
+            <li><svg class="icon" aria-hidden="true"><use href="#i-at"/></svg><a href="https://www.instagram.com/COMPLETAR/" target="_blank" rel="noopener">Instagram @COMPLETAR</a></li>
+          </ul>
+        </div>
+ 
+        <!-- Sin backend: arma el mensaje y abre WhatsApp. Sin JavaScript, igual envía el texto del mensaje. -->
+        <form class="form" id="form-turno" action="https://wa.me/5491138523271" method="get" target="_blank">
+          <div class="field">
+            <label for="f-nombre">Tu nombre</label>
+            <input id="f-nombre" type="text" autocomplete="given-name">
+          </div>
+          <div class="field">
+            <label for="f-tratamiento">¿Qué te interesa?</label>
+            <select id="f-tratamiento">
+              <option value="que me asesores sobre qué tratamiento hacer">No sé, quiero que me asesores</option>
+              <option value="limpieza facial profunda">Limpieza facial profunda</option>
+              <option value="peeling químico">Peeling químico</option>
+              <option value="microneedling">Microneedling</option>
+              <option value="terapia con exosomas">Terapia con exosomas</option>
+              <option value="mesoterapia sin agujas">Mesoterapia sin agujas</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="f-sede">Consultorio</label>
+            <select id="f-sede">
+              <option value="cualquiera de los dos">Me da igual</option>
+              <option value="Munro">Munro</option>
+              <option value="Martínez">Martínez</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="f-mensaje">Contame algo más <span class="opt">(opcional)</span></label>
+            <textarea id="f-mensaje" name="text" rows="4" placeholder="Por ejemplo: días u horarios que te quedan bien"></textarea>
+          </div>
+          <button class="btn btn--wa" type="submit">
+            <svg class="icon" aria-hidden="true"><use href="#i-chat"/></svg>Enviar por WhatsApp
+          </button>
+          <p class="form__hint">Se abre WhatsApp con tu mensaje. Vos decidís cuándo enviarlo.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+ 
+  <!-- ===================== Pie ===================== -->
+  <footer class="site-footer">
+    <div class="wrap footer__grid">
+      <div>
+        <p class="footer__brand">Carabonita</p>
+        <p>Cosmiatría en Munro y Martínez.</p>
+      </div>
+      <div>
+        <p class="footer__title">Consultorios</p>
+        <p>Maquinista Carregal 2445, Munro<br>COMPLETAR, Martínez</p>
+      </div>
+      <div>
+        <p class="footer__title">Contacto</p>
+        <p>
+          <a href="https://wa.me/5491138523271?text=Hola%20Karina%2C%20vi%20tu%20web%20y%20quiero%20consultar%20por%20un%20turno." target="_blank" rel="noopener" data-track="footer">WhatsApp</a><br>
+          <a href="tel:+5491138523271" data-track="footer">+54 9 11 3852-3271</a><br>
+          <a href="mailto:info@carabonita.com" data-track="footer">info@carabonita.com</a><br>
+          <a href="https://www.instagram.com/COMPLETAR/" target="_blank" rel="noopener">Instagram</a>
+        </p>
+      </div>
+      <div>
+        <p class="footer__title">¿Ya te atendiste?</p>
+        <p><a href="#COMPLETAR-link-resenas-google" target="_blank" rel="noopener">Dejá tu reseña en Google</a>. Me ayuda muchísimo a que más personas me encuentren.</p>
+      </div>
+    </div>
+    <div class="wrap footer__legal">
+      <p>© <span data-year>2026</span> Carabonita. Los resultados de los tratamientos varían según cada persona.</p>
     </div>
   </footer>
-
-  <!-- WhatsApp flotante -->
-  <a class="whatsapp-fab"
-     href="https://wa.me/5491138523271?text=Hola%20Karina%2C%20quisiera%20consultar%20por%20un%20turno"
-     target="_blank" rel="noopener" aria-label="Abrir WhatsApp">
-    <i class="fab fa-whatsapp" aria-hidden="true"></i>
+ 
+  <!-- Botón flotante de WhatsApp -->
+  <a class="wa-fab" href="https://wa.me/5491138523271?text=Hola%20Karina%2C%20vi%20tu%20web%20y%20quiero%20consultar%20por%20un%20turno." target="_blank" rel="noopener" aria-label="Escribir por WhatsApp" data-track="boton_flotante">
+    <svg class="icon" aria-hidden="true"><use href="#i-chat"/></svg>
   </a>
-
-  <!-- Scripts -->
-  <script src="script.js" defer></script>
+ 
+  <!-- Visor de fotos (usa <dialog>: accesible y con tecla Esc incluida) -->
+  <dialog class="lightbox" id="lightbox" aria-label="Foto ampliada">
+    <button class="lightbox__close" type="button" aria-label="Cerrar" data-close>&times;</button>
+    <div class="lightbox__content" data-content></div>
+  </dialog>
 </body>
 </html>
-
+ 
